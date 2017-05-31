@@ -1,7 +1,7 @@
 <?php include('../includes/header.php')?>
 
    
-    <div id='home-containe' class="main-container" >
+    <div id='how-container' class='main-container' >
        <!-- CoGraphix Code Goes Here -->  
        
     
