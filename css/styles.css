@@ -7,7 +7,7 @@
          background-color: #FFF;
      }
 
-     /* Home Page Styles */
+     /* Home Page Styles
 
      #home #home-hero{
           position: relative;
@@ -128,7 +128,7 @@
           text-align: center;
           text-decoration: underline;
           font-size: 48px;
-          /*font-family:'Alfa Slab On','Baloo Bhaina', cursive;*/
+          /*font-family:'Alfa Slab On','Baloo Bhaina', cursive;*
      }
 
      #home .services-panel{
@@ -154,7 +154,7 @@
           text-align: center;
           height:80px;
           background-color: #FFA400;
-          /*border-bottom: 3px solid #FFF;rgba(255,164,0,0.5);*/
+          /*border-bottom: 3px solid #FFF;rgba(255,164,0,0.5);*
      }
 
      #home .services-card > span{
@@ -191,20 +191,6 @@
           text-align: center;
      }
 
-     .testGr{
-          /*background-image: url("../img/drawables/gradient-white-01.png");
-          background-repeat: repeat-x;
-          background-size: 28%;*/
-          background: rgba(255,255,255,0.5);
-          background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5) 100%);
-          background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.5)), color-stop(50%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0.5)));
-          background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5) 100%);
-          background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5) 100%);
-          background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5) 100%);
-          background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5) 100%);
-          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
-     }
-
      #home .rates-panel{
           position: relative;
           min-height: 200px;
@@ -225,7 +211,7 @@
      float: left;
      border-radius: 3px;
      padding:10px;
-     /*border: 1px solid rgba(255,164,0,0.3);*/
+     /*border: 1px solid rgba(255,164,0,0.3);*
 }
 
 #home .rationale-panel > span > header{
@@ -393,7 +379,7 @@
      font-size: 14px;
 }
 
-/* End Home Page Styles */
+ End Home Page Styles */
 
 
 

@@ -1,15 +1,16 @@
 $(document).ready(function(){
-   
+
     //CoGraphix Scripts Goes Here
-    //Step Wizard 
-    
+    //Step Wizard
+
      $('.nav-tabs > li a[title]').tooltip();
-    
+     $('[data-toggle="tooltip"]').tooltip();
+
     //Wizard
     $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
 
         var $target = $(e.target);
-    
+
         if ($target.parent().hasClass('disabled')) {
             return false;
         }
@@ -28,15 +29,14 @@ $(document).ready(function(){
         prevTab($active);
 
     });
-    
-    
+
+
     function nextTab(elem) {
     $(elem).next().find('a[data-toggle="tab"]').click();
 }
 function prevTab(elem) {
     $(elem).prev().find('a[data-toggle="tab"]').click();
-    
-}
-    
-});
 
+}
+
+});

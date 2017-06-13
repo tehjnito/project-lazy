@@ -5,9 +5,9 @@
 	<!-- CoGraphix Code Goes Here -->
 	<div id="home-hero" class="row">
 		<div id="hero-slider-container">
-			<div id="heroSlider" class="carousel slide" data-ride="carousel">
+			<div id="heroSlider" class="carousel slide" data-ride="carousel" data-interval="15000">
 				<!-- Indicators -->
-				<ol class="carousel-indicators">
+				<ol class="carousel-indicators hidden">
 					<li data-target="#heroSlider" data-slide-to="0" class="active"></li>
 					<li data-target="#heroSlider" data-slide-to="1"></li>
 					<li data-target="#heroSlider" data-slide-to="2"></li>
@@ -18,32 +18,24 @@
 					<div class="item active">
 						<span class="bkg-img" style="background-image:url('../img/drawables/classroom.jpg')"></span>
 						<span class="tint"></span>
-						<div class="carousel-caption">
-							<h3>NEED SOME HELP WITH YOUR WRITING?</h3>
-							<p>Get advantage of unmatched quality essay writing service done from scratch. Professional writers with Masters and PhD degrees are ready to work for you</p>
-							<a href="javascript:void(0)" class="btn btn-md btn-primary-this">Start Now</a>
-						</div>
 					</div>
 					<div class="item">
 						<span class="bkg-img" style="background-image:url('../img/drawables/ms_education.jpg')"></span>
 						<span class="tint"></span>
-						<div class="carousel-caption">
-							<h3>Los Angeles</h3>
-							<p>LA is always so much fun!</p>
-							<a href="javascript:void(0)" class="btn btn-md btn-primary-this">Learn More</a>
-						</div>
 					</div>
 					<div class="item">
 						<span class="bkg-img" style="background-image:url('../img/drawables/ms_education.jpg')"></span>
 						<span class="tint"></span>
-						<div class="carousel-caption">
-							<h3>Los Angeles</h3>
-							<p>LA is always so much fun!</p>
-						</div>
 					</div>
 				</div>
 
-				<!-- Left and right controls -->
+				<hgroup id="hero-heading">
+					<h1>Get Professional and Academic Help from Credible Writers</h1>
+					<p>Get advantage of unmatched quality essay writing service done from scratch. Professional writers with Masters and PhD degrees are ready to work for you</p>
+					<a href="javascript:void(0)" class="btn btn-lg btn-primary-this">START NOW</a></a>
+				</hgroup>
+
+				<!-- Left and right controls
 				<a class="left carousel-control" href="#heroSlider" data-slide="prev">
 					<i class="fa fa-angle-left"></i>
 					<span class="sr-only">Previous</span>
@@ -52,169 +44,192 @@
 					<i class="fa fa-angle-right"></i>
 					<span class="sr-only">Next</span>
 				</a>
+			-->
 			</div>
 		</div>
 	</div>
 	<div class="page-section">
-		<header class="page-section-header">
-			<h1 class="title">Our Services</h1>
+		<header class="page-section-header text-center" style="margin-bottom:60px">
+			<span class="col-xs-3 hidden-xs col-sm-4 col-md-4 no-padding"><span class="hr"></span></span>
+			<span class="col-xs-12 col-sm-4 col-md-4"><h1 class="title">What We Do</h1></span>
+			<span class="col-xs-3 hidden-xs col-sm-4 col-md-4 no-padding"><span class="hr"></span></span>
 		</header>
-		<span class="col-md-push-1 col-md-10">
-               <span class="services-panel col-sm-4 col-md-4">
-                    <span class="services-card">
-                         <header>
-                              <h3 class="title">Service One</h3>
-                         </header>
-                         <span>
-                              <p>
-                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                              </p>
-                         </span>
-		</span>
-		</span>
-		<span style="top:-30px" class="services-panel col-sm-4 col-md-4">
-                    <span class="services-card">
-                         <header>
-                              <h3 class="title">Service Two</h3>
-                         </header>
-                         <span>
-                              <p>
-                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                              </p>
-                         </span>
-		</span>
-		</span>
-		<span class="services-panel col-sm-4 col-md-4">
-                    <span class="services-card">
-                         <header>
-                              <h3 class="title">Service #3</h3>
-                         </header>
-                         <span>
-                              <p>
-                                   Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                              </p>
-                         </span>
-		</span>
-		</span>
-		</span>
+		<div class="row">
+			<p class="text-center col-xs-push-2 col-xs-8">
+				<b class="underline">AssignmentDoc Experts</b> is known for its unimpeachable service. We specialize in completing essay, reports, research and complex assignments and we are happy to assist you with nearly any assignment. We also offer assistance. With <b class="underline">AssignmentDoc Experts</b>, you are just one click away from a perfect paper!
+			</p>
+			<span class="clearfix col-xs-12" style="margin-top:30px;">
+				<h4 class="clearfix col-xs-12 text-center underline">Services</h4>
+				<p class="clearfix col-xs-push-2 col-xs-8 text-center">
+					At <b class="underline">AssignmentDoc</b>, we specializes in all assignments, homework, projects and essays at the Elementary/Kindergarten, Middle/Primary, and Secondary/High School assignments to get students the help they need in areas such as:
+				</p>
+			</span>
+		</div>
 	</div>
-	<div class="page-section fixed-bg text-center" style="background-image:url('../img/drawables/education.jpg')">
-		<h2 style="font-size:38px;text-transform:uppercase;color:#FFF;text-shadow: 1px 1px rgba(0,0,0,0.4)">Nullam pretium felis vestibulum</h2>
-		<br />
-		<br />
-		<a class="btn btn-lg btn-primary-this">Start Assignment</a>
-		<br />
-		<br />
-	</div>
-	<div class="page-section HIDE">
-		<header class="page-section-header">
-			<h1 class="title">Rates</h1>
-		</header>
-		<span class="col-md-push-1 col-md-10">
-               <span class="row rates-panel">
-                    <span class="col-md-4">
-                         <img class="img-responsive" src="../img/drawables/Jamaica-Map-Flag.png" />
-                    </span>
-		<span class="col-md-1"></span>
-		<span class="col-md-7 well"></span>
-		</span>
-		<span class="row rates-panel">
-                    <span class="col-md-7 well"></span>
-		<span class="col-md-1"></span>
-		<span class="col-md-4"></span>
-		</span>
+	<div class="page-section no-padding">
+		<span class="col-xs-12 no-padding">
+			<span class="col-xs-12 col-md-4 services-card bg-green">
+				<header>
+					<h2 class="title"><a href="javascript:void(0)">Essays</a></h2>
+					<span class="icon"><a href="javascript:void(0)"><i class="fa fa-file-text-o txt-green"></i></a></span>
+				</header>
+				<span class="row">
+					<ul class="price-list">
+						<li>
+							Middle/Primary:<br /><br /><a class="txt-green"><small>JMD</small>2,000</a>
+						</li>
+						<li>
+							High/Secondary School:<br /><br /><a class="txt-green"><small>JMD</small>2,000</a>
+						</li>
+					</ul>
+				</span>
+			</span>
+			<span class="col-xs-12 col-md-4 services-card bg-gold">
+				<header>
+					<h2 class="title"><a href="javascript:void(0)">Research</a></h2>
+					<span class="icon"><a href="javascript:void(0)"><i class="fa fa-book txt-gold"></i></a></span>
+				</header>
+				<span class="row">
+					<ul class="price-list">
+						<li>
+							Middle/Primary:<br /><br /><a class="txt-gold"><small>JMD</small>2,000</a>
+						</li>
+						<li>
+							High/Secondary School:<br /><br /><a class="txt-gold"><small>JMD</small>2,000</a>
+						</li>
+					</ul>
+				</span>
+			</span>
+			<span class="col-xs-12 col-md-4 services-card bg-blue">
+				<header>
+					<h2 class="title"><a data-toggle="tooltip" data-placement="top" title="Complex assignments are those that may requires special expertise. These assignments typically include numerous calculations and or a combination of an essay, research assignments and calculations">Complex Assignments</a></h2>
+					<span class="icon" data-toggle="tooltip" data-placement="top" title="Complex assignments are those that may requires special expertise. These assignments typically include numerous calculations and or a combination of an essay, research assignments and calculations"><a><i class="fa fa-flask txt-blue"></i></a></span>
+				</header>
+				<span class="row">
+					<ul class="price-list">
+						<li>
+							Elementary/Kindargarten:<br /><br /><a class="txt-blue"><small>JMD</small>2,000</a>
+						</li>
+						<li>
+							Middle/Primary:<br /><br /><a class="txt-blue"><small>JMD</small>2,000</a>
+						</li>
+						<li>
+							High/Secondary School:<br /><br /><a class="txt-blue"><small>JMD</small>2,000</a>
+						</li>
+					</ul>
+				</span>
+			</span>
 		</span>
 	</div>
 	<div class="page-section">
-		<span class="col-md-push-1 col-md-10">
-               <span class="col-sm-6 col-md-6 rationale-panel">
-                    <span>
-                         <header>
-                              <h1>How it Works</h1>
-                         </header>
-                         <span class="rationale-point">
-                              <header class="col-xs-12 col-md-12">
-                                   <span class="col-md-1 order">
-                                        1.
-                                   </span>
-		<span class="col-md-push-1 col-md-10">
-                                        Lorem Ipsum
-                                   </span>
+		<header class="page-section-header text-center" style="margin-bottom:60px">
+			<span class="col-xs-3 hidden-xs col-sm-4 col-md-4 no-padding"><span class="hr"></span></span>
+			<span class="col-xs-12 col-sm-4 col-md-4"><h1 class="title">Why Choose Us?</h1></span>
+			<span class="col-xs-3 hidden-xs col-sm-4 col-md-4 no-padding"><span class="hr"></span></span>
 		</header>
-		<p class="col-xs-12 col-md-push-1 col-md-11">
-			Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo. Nulla ut lacus pellentesque, accumsan tortor et, ultricies neque.
-		</p>
-		</span>
-		<span class="rationale-point">
-                              <header class="col-xs-12 col-md-12">
-                                   <span class="col-md-1 order">
-                                        2.
-                                   </span>
-		<span class="col-md-push-1 col-md-10">
-                                        Purus Vehicula
-                                   </span>
-		</header>
-		<p class="col-xs-12 col-md-push-1 col-md-11">
-			Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo. Nulla ut lacus pellentesque, accumsan tortor et, ultricies neque.
-		</p>
-		</span>
-		<span class="rationale-point">
-                              <header class="col-xs-12 col-md-12">
-                                   <span class="col-md-1 order">
-                                        3.
-                                   </span>
-		<span class="col-md-push-1 col-md-10">
-                                        Aenean at Vulputate Massa
-                                   </span>
-		</header>
-		<p class="col-xs-12 col-md-push-1 col-md-11">
-			Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo. Nulla ut lacus pellentesque, accumsan tortor et, ultricies neque.
-		</p>
-		</span>
-		</span>
-		</span>
-		<span class="col-sm-6 col-md-6 rationale-panel">
-                    <span>
-                         <header>
-                              <h1>Why Us?</h1>
-                         </header>
-                         <span class="rationale-point">
-                              <header class="col-xs-12 col-md-12">
-                                   <span class="col-md-1 order">
-                                        1.
-                                   </span>
-		<span class="col-md-push-1 col-md-10">
-                                        We're The Best
-                                   </span>
-		</header>
-		<p class="col-xs-12 col-md-push-1 col-md-11">
-			Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo. Nulla ut lacus pellentesque, accumsan tortor et, ultricies neque.
-		</p>
-		</span>
-		<span class="rationale-point">
-                              <header class="col-xs-12 col-md-12">
-                                   <span class="col-md-1 order">
-                                        2.
-                                   </span>
-		<span class="col-md-push-1 col-md-10">
-                                        Such Benefits
-                                   </span>
-		</header>
-		<p class="col-xs-12 col-md-push-1 col-md-11">
-			Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo. Nulla ut lacus pellentesque, accumsan tortor et, ultricies neque.
-		</p>
-		</span>
-		</span>
-		</span>
-		</span>
+		<div class="row">
+			<span class="col-xs-push-1 col-xs-10 col-md-push-2 col-md-8">
+				<span class="col-xs-12">
+					<span class="reasons-card">
+						<i class="fa fa-smile-o"></i>
+						<p>
+							No Hassle
+						</p>
+					</span>
+					<span class="reasons-card">
+						<i class="fa fa-certificate"></i>
+						<p>
+							Certified Writers
+						</p>
+					</span>
+				</span>
+				<span class="col-xs-12 hidden">
+
+				</span>
+				<span class="col-xs-12">
+					<span class="reasons-card">
+						<i class="fa fa-handshake-o" style="padding-left:15px;padding-right:15px;"></i>
+						<p>
+							Discreet Cooperation
+						</p>
+					</span>
+					<span class="reasons-card">
+						<i class="fa fa-trophy"></i>
+						<p>
+							Impressive Expertise
+						</p>
+					</span>
+					<span class="reasons-card">
+						<i class="fa fa-clock-o"></i>
+						<p>
+							Timely Support
+						</p>
+					</span>
+				</span>
+			</span>
+		</div>
 	</div>
-	<div class="page-section text-center" style="background-image:url('../img/drawables/lead_bg_02.jpg');padding:80px;">
+	<div class="page-section">
+		<header class="page-section-header text-center" style="margin-bottom:60px;">
+			<span class="col-xs-3 hidden-xs col-sm-4 col-md-4 no-padding"><span class="hr"></span></span>
+			<span class="col-xs-12 col-sm-4 col-md-4"><h1 class="title">How it Works</h1></span>
+			<span class="col-xs-3 hidden-xs col-sm-4 col-md-4 no-padding"><span class="hr"></span></span>
+		</header>
+		<div class="">
+			<span class="col-xs-12 col-md-6 services-card bg-gold">
+				<header>
+					<h2 class="title"><a href="javascript:void(0)">Essays/Research</a></h2>
+					<span class="icon"><a href="javascript:void(0)"><i class="fa fa-book txt-gold"></i></a></span>
+				</header>
+				<span class="row">
+					<ul class="hiw-list">
+						<li>
+							<a class="txt-gold">> Fill out the form</a>
+						</li>
+						<li>
+							<a class="txt-gold">> Make the payment</a>
+						</li>
+						<li>
+							<a class="txt-gold">> Retrieve Assignment via email</a>
+						</li>
+					</ul>
+				</span>
+			</span>
+			<span class="col-xs-12 col-md-6 services-card bg-green">
+				<header>
+					<h2 class="title"><a href="javascript:void(0)">Complex Assignments</a></h2>
+					<span class="icon"><a href="javascript:void(0)"><i class="fa fa-flask txt-green"></i></a></span>
+				</header>
+				<span class="row">
+					<ul class="hiw-list">
+						<li>
+							<a class="txt-green">> Fill out the form</a>
+						</li>
+						<li>
+							<a class="txt-green">> Get a Quote within minutes</a>
+						</li>
+						<li>
+							<a class="txt-green">> Make the payment</a>
+						</li>
+						<li>
+							<a class="txt-green">> Retrieve Assignment via email</a>
+						</li>
+					</ul>
+				</span>
+			</span>
+		</div>
+	</div>
+	<div class="page-section text-center hidden" style="background-image:url('../img/drawables/lead_bg_02.jpg');padding:80px;">
 		<a href="javascript:void(0)" class="btn btn-lg btn-primary-this">Start an Assignment</a>
 	</div>
-	<div class="page-section" style="padding-left:0;padding-right:0">
-		<header class="page-section-header text-center" style="margin-bottom:40px">
-			<h1 class="title">Testimonials</h1>
-			<h6>See What People Have Said About Us</h6>
+	<div class="page-section no-padding">
+		<header class="page-section-header text-center" style="margin-bottom:60px">
+			<span class="col-xs-3 hidden-xs col-sm-4 col-md-4 no-padding"><span class="hr"></span></span>
+			<span class="col-xs-12 col-sm-4 col-md-4">
+				<h1 class="title">Testimonials</h1>
+				<h6>See What People Have Said About Us</h6>
+			</span>
+			<span class="col-xs-3 hidden-xs col-sm-4 col-md-4 no-padding"><span class="hr"></span></span>
 		</header>
 		<div id="testimonial-container">
 			<div id="testimonialSlider" class="carousel slide" data-ride="carousel">
@@ -226,7 +241,7 @@
                                         <span class="col-xs-12 col-md-12 quote-section">
                                              <i class="fa fa-quote-left"></i>
                                              <p>
-                                                  Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo
+                                                   	I am quite impressed with the service from Assignmentdoc Experts because the service was done exceptionally well and the service was very affordable.
                                              </p>
                                              <i class="fa fa-quote-right"></i>
                                         </span>
@@ -246,7 +261,7 @@
                                         <span class="col-xs-12 col-md-12 quote-section">
                                              <i class="fa fa-quote-left"></i>
                                              <p>
-                                                  Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo
+                                                   	I chose well when I chose Assignmentdoc Experts because my daughter earned an A for a History essay they wrote. I got it pretty fast too!
                                              </p>
                                              <i class="fa fa-quote-right"></i>
                                         </span>
@@ -266,7 +281,7 @@
                                         <span class="col-xs-12 col-md-12 quote-section">
                                              <i class="fa fa-quote-left"></i>
                                              <p>
-                                                  Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo
+										I am always busy and really don’t have the time to do everything I should so Assignmentdoc Experts always gets the job done for me.
                                              </p>
                                              <i class="fa fa-quote-right"></i>
                                         </span>
@@ -283,52 +298,12 @@
 						</span>
 					</div>
 					<div class="item">
-						<span class="col-xs-12 col-sm-6 col-md-4 testimonial-card">
+						<span class="col-xs-12 col-sm-push-3 col-sm-6 col-md-push-4 col-md-4 testimonial-card">
                                    <span class="row">
                                         <span class="col-xs-12 col-md-12 quote-section">
                                              <i class="fa fa-quote-left"></i>
                                              <p>
-                                                  Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo
-                                             </p>
-                                             <i class="fa fa-quote-right"></i>
-                                        </span>
-                                        <span class="col-xs-12 col-md-12 avatar-section">
-                                             <span class="col-md-2">
-                                                  <img class="avatar" src="../img/drawables/school-graphic.jpg" />
-                                             </span>
-                                             <span class="col-md-10">
-                                                  <h5>Some Kid</h5>
-                                                  <h6>Some High School</h6>
-                                             </span>
-                                        </span>
-                                   </span>
-						</span>
-						<span class="col-xs-12 col-sm-6 col-md-4 testimonial-card">
-                                   <span class="row">
-                                        <span class="col-xs-12 col-md-12 quote-section">
-                                             <i class="fa fa-quote-left"></i>
-                                             <p>
-                                                  Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo
-                                             </p>
-                                             <i class="fa fa-quote-right"></i>
-                                        </span>
-                                        <span class="col-xs-12 col-md-12 avatar-section">
-                                             <span class="col-md-2">
-                                                  <img class="avatar" src="../img/drawables/school-graphic.jpg" />
-                                             </span>
-                                             <span class="col-md-10">
-                                                  <h5>Some Kid</h5>
-                                                  <h6>Some High School</h6>
-                                             </span>
-                                        </span>
-                                   </span>
-						</span>
-						<span class="col-xs-12 col-sm-12 col-md-4 testimonial-card">
-                                   <span class="row">
-                                        <span class="col-xs-12 col-md-12 quote-section">
-                                             <i class="fa fa-quote-left"></i>
-                                             <p>
-                                                  Quisque id mauris orci. Mauris commodo orci eu purus vehicula dapibus in in justo
+										My son is weak in Math so I decided to get some help online. Assignmentdoc Experts completed one of his assignments and showed him a step by step process of what to do.
                                              </p>
                                              <i class="fa fa-quote-right"></i>
                                         </span>
@@ -360,7 +335,24 @@
 			</div>
 		</div>
 	</div>
-     <div class="page-section">
+	<div class="page-section fixed-bg text-center" style="background-image:url('../img/drawables/education.jpg');height:400px">
+		<br /><br /><br />
+		<h2 style="font-size:48px;text-transform:uppercase;color:#FFF;text-shadow: 1px 1px rgba(0,0,0,0.4)">Need Help With An Assignment?</h2>
+		<br /><br />
+		<a class="btn btn-lg btn-primary-this">START NOW</a>
+		<br /><br />
+	</div>
+	<div class="page-section no-padding">
+		<header class="page-section-header text-center" style="margin:80px 0px 80px 0px">
+			<span class="col-xs-3 hidden-xs col-sm-4 col-md-4 no-padding"><span class="hr"></span></span>
+			<span class="col-xs-12 col-sm-4 col-md-4">
+				<h1 class="title">AssignmentDoc</h1>
+				<h6>Help When You Need It</h6>
+			</span>
+			<span class="col-xs-3 hidden-xs col-sm-4 col-md-4 no-padding"><span class="hr"></span></span>
+		</header>
+	</div>
+     <div class="page-section hidden">
           <span class="row">
                <span class="col-xs-12 col-sm-6 col-md-4 quality-assurance">
                     <header>

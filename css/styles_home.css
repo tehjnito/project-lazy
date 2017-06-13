@@ -1,0 +1,496 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html {
+    font-family: 'Open Sans Condensed', sans-serif
+}
+#home #hero-slider-container,
+#home #heroSlider.carousel,
+#home #heroSlider.carousel .bkg-img,
+#home #heroSlider.carousel .tint {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute
+}
+.btn-primary-this,
+.btn-primary-this:hover {
+    transition-property: all;
+    transition-duration: .25s
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #6b7770;
+    background-color: #f1f1f1;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    line-height: 1.1
+}
+#home #home-hero {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0px;
+    width: 100%;height: auto;
+    min-height: 89.9vh
+}
+#home #hero-slider-container {
+    height: 100%;
+    background-color:#f2f2f2;
+}
+#home #heroSlider.carousel {
+    height: 100%;
+    overflow: hidden
+}
+#home #heroSlider.carousel .carousel-inner,
+#home #heroSlider.carousel .carousel-inner .item {
+    width: 100%;
+    height: 100%
+}
+#home #heroSlider.carousel .bkg-img {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#home #heroSlider.carousel .tint {
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4)
+}
+#home #heroSlider.carousel img {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%
+}
+#home #heroSlider.carousel .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    transform: translateY(-25%);
+    padding: 0 20px;
+    text-align: center
+}
+#home #heroSlider.carousel .carousel-caption h3 {
+    font-size: 40px
+}
+#home #heroSlider.carousel .carousel-control {
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #000
+}
+#home #heroSlider.carousel .carousel-control .fa {
+    top: 50%;
+    transform: translateY(25%);
+    font-size: 20px
+}
+#home #heroSlider.carousel .carousel-control.left {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0
+}
+#home #heroSlider.carousel .carousel-control.right {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0
+}
+#home #hero-heading {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    text-align: center;
+    color: #FFF
+}
+#home #hero-heading h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+#home #hero-heading p {
+    position: relative;
+    width: 60%;
+    font-size: 1em;
+    color: #eee;
+    margin: 20px auto 40px
+}
+.btn-primary-this {
+    color: #FFF;
+    background-color: #59ABE3;
+    border-color: #59ABE3
+}
+.btn-primary-this:hover {
+    color: #FFF;
+    background-color: #3183BB;
+    border-color: #3183BB
+}
+#home .page-section,
+#home .services-card {
+    float: left;
+    position: relative
+}
+#home .page-section {
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 40px 0px 40px 0px;
+}
+#home .page-section-header {
+     position: relative;
+     clear: both;
+     float: left;
+     width: 100%;
+     margin-bottom:0px
+}
+#home .page-section-header .title {
+    text-align: center;
+    text-decoration: underline;
+    font-size:3em;
+    text-transform: capitalize;
+}
+
+#home .page-section-header .hr {
+     position: relative;
+     float: left;
+     width:100%;height:5px;
+     transform: translateY(800%);
+     border-radius:1px;
+     background-color:#ccc;
+     opacity:0.7;
+}
+
+#home .services-card {
+    padding: 0px;
+    padding-bottom:40px;
+}
+#home .services-card > header {
+    position: relative;
+    clear: both;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#home .services-card > header > .title > a,
+#home .services-card > header > .title{
+     color: #FFF;
+     font-size: 32px;
+     text-transform: capitalize;
+}
+#home .services-card > header > .icon{
+     position: relative;
+     clear: both;
+}
+#home .services-card > header > .icon i{
+     font-size: 26px;
+     font-weight:bold;
+     padding: 30px;
+     border: 0px solid #FFF;
+     border: 5px solid transparent;
+     border-radius: 50%;
+     background-color: #FFF;
+     transition: all .15s ease-in-out;
+}
+#home .services-card > header > .icon i:hover{
+     transition: all .15s ease-in-out;
+     color: #FFF !important;
+     background-color: transparent;
+     top:-5px;
+     transform: scale(1.5);
+     border-radius: 0px;
+     border-bottom-color:#FFF;
+}
+
+#home .price-list{
+     position: relative;
+     float: left;
+     width:100%;height:300px;
+     list-style: none;
+     text-align: center;
+     padding: 40px;
+}
+#home .price-list li{
+     color:#FFF;
+     margin-bottom: 25px;
+}
+#home .price-list li > a{
+     position: relative;
+     width: auto !important;
+     clear: both;
+     font-size:20px;
+     padding:10px;
+     text-decoration: none;
+     background-color: #FFF;
+}
+#home .price-list li > a > small{
+     font-size: 14px;
+}
+
+#home .reasons-card{
+     position: relative;
+     float: left;
+     min-width: 300px;
+     padding: 15px;
+     margin-right: 20px;
+     /*background-color: #999;*/
+}
+#home .reasons-card i{
+     position: relative;
+     float: left;
+     text-align: center;
+     font-size: 30px;
+     padding: 20px;
+     margin-right:20px;
+     color: #FFF;
+     border-radius:50%;
+     background-color: #b1ddab;
+}
+#home .reasons-card p{
+     position: relative;
+     float: left;
+     text-align: center;
+     font-size: 18px;
+     transform: translateY(100%);
+     text-transform: capitalize;
+}
+
+#home .hiw-list{
+     position: relative;
+     float: left;
+     width:100%;height:300px;
+     list-style: none;
+     text-align: center;
+     padding: 40px;
+}
+#home .hiw-list li{
+     margin-bottom: 25px;
+}
+#home .hiw-list li > a{
+     position: relative;
+     width: auto !important;
+     clear: both;
+     font-size:20px;
+     padding:10px;
+     text-decoration: none;
+     background-color: #FFF;
+}
+
+
+
+
+
+
+
+
+#home .dropcaps p::first-letter {
+    font-size: 3em;
+    margin: -.1em .2em -.1em 0;
+    float: left
+}
+
+#home .fixed-bg {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*border-radius: 55px*/
+}
+.text-center {
+    text-align: center
+}
+#home .rates-panel {
+    position: relative;
+    min-height: 200px;
+    background-color: #0FF
+}
+#home .rationale-panel {
+    margin-bottom: 2em
+}
+#home .rationale-panel>span {
+    float: left;
+    border-radius: 3px;
+    padding: 10px
+}
+#home .rationale-panel>span>header {
+    position: relative;
+    clear: both;
+    float: left;
+    left: -2%;
+    width: 104%;
+    padding: 5px;
+    color: #FFF;
+    text-align: center;
+    background-color: rgba(89, 171, 227, 1)
+}
+#home .rationale-panel .rationale-point {
+    clear: both;
+    float: left;
+    padding: 10px 20px;
+    background-color: #f4f4f4
+}
+#home .rationale-panel .rationale-point:first-of-type {
+    border-top: 10px solid #4597CF
+}
+#home .rationale-panel .rationale-point:last-of-type {
+    border-bottom: 30px solid #4597CF
+}
+#home .rationale-panel .rationale-point header {
+    float: left;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-variant: small-caps;
+    color: #59ABE3;
+    border-bottom: 2px solid rgba(0, 0, 0, .1)
+}
+#home .rationale-panel .rationale-point header .order {
+    font-size: 20px;
+    text-align: left
+}
+#home .rationale-panel .rationale-point p {
+    text-align: left
+}
+#home #testimonial-container {
+    position: relative;
+    clear: both;
+    float: left;
+    width: 100%;
+    padding: 0;
+    min-height: 350px;
+    height: auto;
+    background-color: #F47983;
+    transition: all .15 ease-in-out;
+}
+#home #testimonial-container #testimonialSlider {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+#home #testimonial-container #testimonialSlider .carousel-inner {
+    position: relative;
+    float: left;
+    padding: 5px 25px;
+    min-height: 200px
+}
+#home #testimonial-container #testimonialSlider .carousel-inner>.item {
+    width: 100%;
+    height: 100%
+}
+#home .testimonial-card {
+    padding: 5px
+}
+#home .testimonial-card>span {
+    position: relative;
+    float: left;
+    width: 100%;
+    border-radius: 1px;
+    background-color: #FFF
+}
+#home .testimonial-card .quote-section {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 5px 15px
+}
+#home .testimonial-card .quote-section i.fa,
+#home .testimonial-card .quote-section p {
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 5px
+}
+#home .testimonial-card .quote-section p {
+    display: block;
+    font-size: 20px;
+    width: 80%
+}
+#home .testimonial-card .avatar-section {
+    padding-top: 15px;
+    padding-bottom: 10px
+}
+#home .testimonial-card .avatar-section .avatar {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+}
+#home #testimonial-container #testimonialSlider .directionbar {
+    position: relative;
+    width: 100%;
+    clear: both;
+    float: left;
+    padding: 25px 15px 15px;
+    text-align: center;
+}
+#home #testimonial-container #testimonialSlider .carousel-control {
+    position: relative;
+    color: #1d1d1d;
+    margin: 0;
+    padding: 10px 20px;
+    background: #FFF;
+    opacity: 1;
+    border: 1px solid #f0f0f0
+}
+#home #testimonial-container #testimonialSlider .carousel-control:hover {
+    background: #f3f3f3
+}
+#home #testimonial-container #testimonialSlider .carousel-control.left {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+#home #testimonial-container #testimonialSlider .carousel-control.right {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+#home .quality-assurance {
+    border-right: 1px solid rgba(0, 0, 0, .1)
+}
+#home .quality-assurance>header i {
+    float: left;
+    text-align: left;
+    font-size: 22px;
+    margin-right: 16px
+}
+#home .quality-assurance p {
+    padding: 5px 10px 5px 35px;
+    font-size: 14px
+}
+
+.tooltip{
+     max-width: 200px;
+}
+
+p{
+     /*opacity: 0.6;*/
+}

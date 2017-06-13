@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/flatly.bootstrap.min.css">
     <link rel="stylesheet" href="../fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../css/styles_home.css" type="text/css">
+    <link rel="stylesheet" href="../css/styles_footer.css" type="text/css">
     <link rel="stylesheet" href="../css/navigationbar.css">
+    <link rel="stylesheet" href="../css/colors.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Istok+Web|Poiret+One|Baloo+Bhaina|Alfa+Slab" rel="stylesheet">
 
 </head>
